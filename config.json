@@ -1,0 +1,9 @@
+{
+  "env": "dev",
+  "port": "8080",
+  "endpoints": [
+    "http://example1.com",
+    "http://example2.com",
+    "http://example3.com"
+  ]
+}
