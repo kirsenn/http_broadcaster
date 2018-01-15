@@ -5,3 +5,4 @@ Creates http listener on local port, every http request will be broadcasted to e
 * Compile using go build
 * Create configuration file (see example in repository). Adjust your port, environment (log level) and endpoint list
 * Run program using first argument as config file `http_broadcaster config.json`
+* Check it works by requesting localhost:port/endpoints
