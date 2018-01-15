@@ -28,7 +28,7 @@ func main() {
     config = LoadConfiguration(configFile)
 
     if config.Env == prodEnv {
-        logger, _ = zap.NewDevelopment()
+        logger, _ = zap.NewProduction()
     } else if config.Env == devEnv {
         logger, _ = zap.NewDevelopment()
     }
